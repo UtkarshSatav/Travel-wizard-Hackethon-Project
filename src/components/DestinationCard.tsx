@@ -17,11 +17,9 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
     }`}>
       {/* Recommended Badge */}
       {isRecommended && (
-        <div className="absolute top-4 right-4 z-10">
-          <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-3 py-1 rounded-full text-xs font-bold flex items-center">
-            <Star className="h-3 w-3 mr-1 fill-current" />
-            BEST MATCH
-          </div>
+        <div className="absolute top-0 left-4 -translate-y-1/2 bg-gradient-to-r from-orange-400 to-amber-400 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md z-10">
+          <Star className="h-3 w-3 mr-1 fill-current" />
+          BEST MATCH
         </div>
       )}
 

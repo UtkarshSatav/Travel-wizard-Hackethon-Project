@@ -118,7 +118,7 @@ const LocationDetector: React.FC<LocationDetectorProps> = ({
 
   if (currentLocation) {
     return (
-      <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 mb-6">
+      <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 mb-6 z-1">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="bg-green-100 p-2 rounded-lg">
@@ -144,7 +144,7 @@ const LocationDetector: React.FC<LocationDetectorProps> = ({
 
   if (showManualInput) {
     return (
-      <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-6">
+      <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-6 z-1">
         <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
           <Search className="h-5 w-5 text-blue-600 mr-2" />
           Enter Your Location
